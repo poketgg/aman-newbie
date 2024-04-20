@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body{
+    background-color: rgb(255, 245, 232);
+
+    height: 80vh;
+    background: url(../img/Background_mokoko.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+**{
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+#main{
+    margin-top: 100px;
+    margin-left: 250px;
+
+    width: 1400px;
+    height: 800px;
+
+    background-color: rgba(255, 255, 255, 0.596);
+
+    border-radius: 35px;
+}
+
+#main_box {
+    width: 1000px;
+    margin-left: 200px;
+}
+
+
+
+/*기본 UI 배열*/
+
+.introduce{
+    float: left;
+    width: 500px;
+    height: 800px;
+}
+
+.discord{
+    margin-top: 50px;
+    float: right;
+}
+
+.discord > iframe{
+    width: 450px;
+    height: 700px;
+}
+
+.discord > iframe > .widgetHeader-1cAbIw{
+    display: none;
+}
+
+#discord-enter{
+    margin-top: 235px;
+    text-align: right;
+    font-size: 25px;
+
+    font-weight: 900;
+}
+
+
+/*로고 등 메인 요소*/
+.guild_name{
+    font-size: 50px;
+    font-family: "Jua", sans-serif;
+    font-weight: 500;
+
+    text-align: left;
+
+    display: block;
+    padding-top: 20px;
+
+    margin-bottom: 0px;
+    margin-left: 50px;
+
+    float: left;
+}
+
+.server{
+    font-size: 15px;
+    padding-top: 10px;
+    float: right;
+
+    margin-top: 90px;
+    margin-right: 100px;
+    font-weight: 900;
+}
+
+.content{
+    float: none;
+    margin-top: 200px;
+}
